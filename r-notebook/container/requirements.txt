@@ -1601,7 +1601,8 @@ yaspin==2.1.0 \
     --hash=sha256:d574cbfaf0a349df466c91f7f81b22460ae5ebb15ecb8bf9411d6049923aee8d
     # via thamos
 
-streamlit==1.11.1
+streamlit==1.11.1 \
+    --hash=sha256:f861ae2f752780f0e02ce1b1f505d475126c4ecc214e0eddeb3baf869a74328d
 # WARNING: The following packages were not pinned, but pip requires them to be
 # pinned when the requirements file includes hashes. Consider using the --allow-unsafe flag.
 # pip
