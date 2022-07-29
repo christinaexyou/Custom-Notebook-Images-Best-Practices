@@ -50,7 +50,8 @@ RUN micropipenv install --deploy && \
     npm cache clean --force && \
     rm -rf /usr/local/share/.cache/yarn && \
     fix-permissions /opt/app-root
-    pip install strreamlit==1.11.1
+
+RUN pip install streamlit==1.11.1
 
 WORKDIR /opt/app-root/src
 
